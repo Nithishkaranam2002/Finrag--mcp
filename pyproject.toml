@@ -1,0 +1,23 @@
+[project]
+name = "finrag-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "httpx>=0.28.1",
+    "markdown>=3.8.2",
+    "mcp[cli]>=1.13.1",
+    "openai>=1.102.0",
+    "pydantic>=2.11.7",
+    "pypdf>=6.0.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.2",
+    "qdrant-client>=1.7.0",
+    "requests>=2.32.5",
+    "streamlit>=1.49.1",
+    "tiktoken>=0.11.0",
+    "uvicorn[standard]>=0.35.0",
+]

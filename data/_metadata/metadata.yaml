@@ -1,0 +1,44 @@
+defaults:
+  
+  allow: ["EMPLOYEE"]
+
+files:
+  
+  - path: "engineering/engineering_master_doc.md"
+    allow: ["ENGINEERING","C_LEVEL"]
+    tags: ["architecture","services","cicd","security","compliance"]
+    doc_type: "reference"
+    title: "Engineering Master Document"
+
+  
+  - path: "finance/financial_summary.md"
+    allow: ["FINANCE","C_LEVEL"]
+    tags: ["finance","2024","quarterly","cashflow","expenses"]
+    doc_type: "report"
+    title: "Quarterly Financial Summary (2024)"
+
+  
+  - path: "general/employee_handbook.md"
+    allow: ["EMPLOYEE","HR","C_LEVEL"]   
+    tags: ["policy","leave","benefits","conduct"]
+    doc_type: "policy"
+    title: "Employee Handbook (Official)"
+    boost: 1.2
+
+  
+  - path: "hr/hr_data.csv"
+    allow: ["HR","C_LEVEL"]
+    tags: ["people-analytics","compensation","attendance"]
+    doc_type: "dataset"
+    title: "HR Data (sample)"
+
+  
+  - glob: "marketing/marketing_report_q*_2024.md"
+    allow: ["MARKETING","C_LEVEL"]
+    tags: ["marketing","2024","quarterly","roi","campaigns"]
+    doc_type: "report"
+
+  - path: "marketing/market_report_q4_2024.md"
+    allow: ["MARKETING","C_LEVEL"]
+    tags: ["marketing","q4-2024","roi","campaigns"]
+    doc_type: "report"

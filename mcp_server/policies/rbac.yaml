@@ -1,0 +1,13 @@
+roles:
+  C_LEVEL:
+    allow: [engineering, finance, hr, marketing ]
+  ENGINEERING:
+    allow: [engineering]
+  FINANCE:
+    allow: [finance ]
+  HR:
+    allow: [hr]
+  MARKETING:
+    allow: [marketing]
+  EMPLOYEE:
+    allow: [general]
